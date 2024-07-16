@@ -2,18 +2,16 @@ import React, { useState } from 'react'
 import ComponetGrandSon from './ComponetGrandSon'
 
 const ComponetSon = ({num}) => {
-
-    const [result, setResult]=useState(num)
-
-  const  increment2=(num)=>{
-       result=num+1
-    setResult(result) 
-  }
+// const []
+//    const increment=(acc)=>{
+//     acc+1
+//    }
+ 
   return (
     <div className='border-[2px] border-black p-2'>
         <h1>COMPONENTE B</h1>
-        x= {result}
-        <ComponetGrandSon num={num} increment2={increment2}/>
+        x= 
+        <ComponetGrandSon num={num} />
     </div>
   )
 }
