@@ -1,16 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ComponetSon from './ComponentSon';
 
 const ComponetParent = () => {
-   let num=42
-    console.log(num);
-  return (
-    <div className='border-[2px] border-black p-2'>
-        <h1>COMPONENTE A</h1>
-        x={num}
-        <ComponetSon num={num}/>
-    </div>
-  )
-}
+  
+    const x=42
+
+ 
+  
+    return (
+      <div className="border-[2px] border-black p-2">
+        <h2 className="text-xl">ComponentA</h2>
+        <p>x = {x}</p>
+        <ComponetSon x={x}  />
+      </div>
+    );
+  }
 
 export default ComponetParent

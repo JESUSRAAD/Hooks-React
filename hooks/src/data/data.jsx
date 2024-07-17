@@ -1,1 +1,1 @@
-export const colorsLikeButton=['purple','blue','green','yellow','orange','red']
+export const colorsLikeButton=['bg-purple-100','bg-blue-100','bg-green-100','bg-yellow-100','bg-orange-100','bg-red-100']

@@ -24,8 +24,8 @@ const LikeButton = () => {
 
 
 ///// ocurre un error que cno reconoce el valor hasta que es escrito y remplazado
-const cssClass=`text-${colorsLikeButton[indexColor]}-200 fill-current` 
-  const cssClassButton=`flex  bg-${colorsLikeButton[indexColor]}-100 rounded-xl p-1` 
+const cssClass=`text-red-400 fill-current` 
+  const cssClassButton=`flex  ${colorsLikeButton[indexColor]} rounded-xl p-1` 
 
 
   return  (
